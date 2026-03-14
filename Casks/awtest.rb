@@ -3,7 +3,7 @@ cask "awtest" do
   name "awtest"
   desc "AWS credential enumeration for security assessments"
   homepage "https://github.com/MillerMedia/awtest"
-  version "0.5.0"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "awtest" do
   on_macos do
     on_intel do
       url "https://github.com/MillerMedia/awtest/releases/download/v#{version}/awtest_#{version}_darwin_amd64.tar.gz"
-      sha256 "afb03c42962c7202f5f0c5c8205f474d26a6ba9d823de680eca5b5ba85ea1cbe"
+      sha256 "6f8bf26151e4d0eed9c0422f09e144875ffeb912d693b7e8a6a107ee9f4a0ce4"
     end
     on_arm do
       url "https://github.com/MillerMedia/awtest/releases/download/v#{version}/awtest_#{version}_darwin_arm64.tar.gz"
-      sha256 "c926b13e8bb747fdd70b8561ef20f2a7a0ba89d6d5e2cfb09505bd8173bac0bb"
+      sha256 "1e9ea6535230ce5eafd408488cea2686416ae77441b2849f1c14c02d6d70a402"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/MillerMedia/awtest/releases/download/v#{version}/awtest_#{version}_linux_amd64.tar.gz"
-      sha256 "ee4f94451649d1a0b0048d5285f44dd94620192b49b66901958d4e3c68da093d"
+      sha256 "f74d88828e8cce4f00a50d7d654bc2cdc221fc280d392750ba316339b897ea78"
     end
     on_arm do
       url "https://github.com/MillerMedia/awtest/releases/download/v#{version}/awtest_#{version}_linux_arm64.tar.gz"
-      sha256 "3ec166a6be3d60f37a438e268a3df2939bbccfd092194d2c39b5d3299c2755bf"
+      sha256 "3b9df17a369ff001f16e2ec243351030aea2f3db594e4ac51216cc553aa25309"
     end
   end
 
